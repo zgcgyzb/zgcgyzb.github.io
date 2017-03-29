@@ -27,13 +27,12 @@
     color: #fff
 }
 
+@media (max-width: 50em) {
+    .home .collapsed .icon-bar {
+        background-color: white;
+    }
 
-@media (max-width:50em) {
-  .home .collapsed .icon-bar {
-    background-color: white;
-  }
-
-  .home .collection-head .collection-header {
-    font-size: 1.25em;
-  }
+    .home .collection-head .collection-header {
+        font-size: 1.25em;
+    }
 }
